@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcheralSA", "AcheralSA\AcheralSA.csproj", "{526E1758-7D7D-4C65-AA25-2F2A91CFB5BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{257E7074-2614-4282-9567-BAB3A0288CCD} = {257E7074-2614-4282-9567-BAB3A0288CCD}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Entidades", "04 Entidades", "{9D11DFE5-82F2-4663-82D4-CA4E46AD39A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcheralSA.Entidades", "AcheralSA.Entidades\AcheralSA.Entidades.csproj", "{334ABAE1-FBB2-4CAC-A54E-4A08A3546B53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 LogicaDeNegocio", "02 LogicaDeNegocio", "{4DE7B11B-433E-4D3D-8A93-20A191279A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcheralSA.LogicaDeNegocio", "AcheralSA.LogicaDeNegocio\AcheralSA.LogicaDeNegocio.csproj", "{257E7074-2614-4282-9567-BAB3A0288CCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Presentacion", "01 Presentacion", "{AD756DE6-60D3-4B7A-AF55-EBC50A58320B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 AccesoDatos", "03 AccesoDatos", "{1E2C5B02-A9F6-4847-AACF-C9840F87F5D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 Utilidades", "05 Utilidades", "{F338CC48-9564-4EEC-8FA4-52FA435487F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{526E1758-7D7D-4C65-AA25-2F2A91CFB5BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526E1758-7D7D-4C65-AA25-2F2A91CFB5BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526E1758-7D7D-4C65-AA25-2F2A91CFB5BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526E1758-7D7D-4C65-AA25-2F2A91CFB5BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334ABAE1-FBB2-4CAC-A54E-4A08A3546B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334ABAE1-FBB2-4CAC-A54E-4A08A3546B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334ABAE1-FBB2-4CAC-A54E-4A08A3546B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334ABAE1-FBB2-4CAC-A54E-4A08A3546B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257E7074-2614-4282-9567-BAB3A0288CCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257E7074-2614-4282-9567-BAB3A0288CCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257E7074-2614-4282-9567-BAB3A0288CCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257E7074-2614-4282-9567-BAB3A0288CCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{334ABAE1-FBB2-4CAC-A54E-4A08A3546B53} = {9D11DFE5-82F2-4663-82D4-CA4E46AD39A7}
+		{257E7074-2614-4282-9567-BAB3A0288CCD} = {4DE7B11B-433E-4D3D-8A93-20A191279A7E}
+	EndGlobalSection
+EndGlobal
